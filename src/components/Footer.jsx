@@ -1,8 +1,9 @@
 import styled from "styled-components"; 
 import {Playercontrols} from "./Playercontrols"
+import {Cancionpararepro} from "./Cancionpararepro"
 export function Footer() {
   return (<Container>
-<h1>Autor</h1>
+<Cancionpararepro/>
 <Playercontrols/>
 <h1>volumen</h1>
   </Container>);
